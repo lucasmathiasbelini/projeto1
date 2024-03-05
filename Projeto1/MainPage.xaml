@@ -22,7 +22,8 @@
               
           <Button Text="Iniciar"/>
           
-          
+          <Image Source="https://th.bing.com/th/id/OIG3.vjRmuFR6U8EfJ7SFoQss?pid=ImgGn"
+                    Aspect="AspectFill"/>
 
 
           

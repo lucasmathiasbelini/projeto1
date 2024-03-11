@@ -4,39 +4,45 @@
              x:Class="Projeto1.MainPage"
              Shell.NavBarIsVisible="false">
 
-     <ScrollView>
-     
-<Grid>
-            <Image
-                Source="penhacos.jpg"
-                Aspect="AspectFill"
-            />
+ 
 
-            <Label
-                Text="Olá aventureiro seja bem vindo!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center"/>
-              
-          <Button Text="Iniciar"
+<Grid>
+ 
         
-          Margin="0,20"
+            <Image
+                Source="blz.jpg"
+                Aspect="AspectFill"/>
+
+        
+          <Label
+                Text="Olá aventureiro seja bem vindo!"
+                
+                 HorizontalTextAlignment="Center"
+                VerticalOptions="Center"
+                TextColor="Blue"
+                Margin="0,0,0,350"/>
+              
+
+          <Button Text="Iniciar"
+          Clicked="joia"
           VerticalOptions="Center"
           HorizontalOptions="Center"
         CornerRadius="20"
-          BackgroundColor="Blue"
+          BackgroundColor="Transparent"
+          BorderWidth="1"
+            BorderColor="Black"
+            TextColor="White"
+            HeightRequest="50"
+            Margin="0,350,0,0"/>
           
-          />
-          
+      
+
+
+        
 </Grid>
 
 
           
-          
-
-
-
-      
-    </ScrollView>
+        
 
 </ContentPage>

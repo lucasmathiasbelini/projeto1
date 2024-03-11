@@ -6,5 +6,9 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
+void joia(object sender, EventArgs args)
+{
+	
+}
 }
 

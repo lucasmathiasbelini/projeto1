@@ -15,27 +15,38 @@
 
         
           <Label
-                Text="Olá aventureiro seja bem vindo!"
-                
+                Text="HELL INVADER"
+                FontFamily="GODOFWAR.TTF"
+                FontSize="45"
                  HorizontalTextAlignment="Center"
                 VerticalOptions="Center"
-                TextColor="Blue"
+                TextColor="White"
                 Margin="0,0,0,350"/>
               
 
           <Button Text="Iniciar"
-          Clicked="joia"
-          VerticalOptions="Center"
-          HorizontalOptions="Center"
-        CornerRadius="20"
-          BackgroundColor="Transparent"
-          BorderWidth="1"
-            BorderColor="Black"
-            TextColor="White"
-            HeightRequest="50"
-            Margin="0,350,0,0"/>
-          
-      
+              FontFamily="GODOFWAR.TTF"
+                Margin="0,300,0,0"
+              Clicked="joia"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="Transparent"
+              TextColor="White"
+              FontSize="16"/>
+           <Button Text="Sobre"
+               FontFamily="GODOFWAR.TTF"
+                Margin="0,500,0,0"
+              Clicked="joia"
+              BorderColor="White"
+              BorderWidth="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="Transparent"
+              TextColor="White"
+              FontSize="16"/>
+
 
 
         

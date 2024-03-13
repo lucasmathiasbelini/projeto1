@@ -8,7 +8,11 @@ public partial class MainPage : ContentPage
 	}
 void joia(object sender, EventArgs args)
 {
-	
+	Application.Current.MainPage = new GamePage();
+}
+void jonas(object sender, EventArgs args)
+{
+	Application.Current.MainPage = new GamePage();
 }
 }
 

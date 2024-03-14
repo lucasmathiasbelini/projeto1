@@ -3,31 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Projeto1.MainPage"
              Shell.NavBarIsVisible="false">
-
- 
-
-<Grid>
- 
-        
-            <Image
-                Source="blz.jpg"
-                Aspect="AspectFill"/>
+   <Grid>
+      <Image Source="blz.jpg"
+             Aspect="AspectFill"/>
 
         
-          <Label
-                Text="HELL INVADER"
-                FontFamily="GODOFWAR.TTF"
-                FontSize="45"
+          <Label Text="HELL INVADER"
+                 FontFamily="GODOFWAR.TTF"
+                 FontSize="45"
                  HorizontalTextAlignment="Center"
-                VerticalOptions="Center"
-                TextColor="White"
-                Margin="0,0,0,350"/>
-              
+                 VerticalOptions="Center"
+                 TextColor="White"
+                 Margin="0,0,0,350"/>
+        
+      <VerticalStackLayout
+            VerticalOptions="End"
+            Spacing="10"
+            Margin="20,0,20,45">
 
-          <Button Text="Iniciar"
+      <Button Text="Iniciar"
+              Clicked="BotaoIniciarClick"
               FontFamily="GODOFWAR.TTF"
-                Margin="0,300,0,0"
-              Clicked="joia"
+              Margin="0,0,0,14"
               BorderColor="White"
               BorderWidth="1"
               HeightRequest="50"
@@ -35,25 +32,70 @@
               BackgroundColor="Transparent"
               TextColor="White"
               FontSize="16"/>
-           <Button Text="Sobre"
-               FontFamily="GODOFWAR.TTF"
-                Margin="0,490,0,0"
-              Clicked="jonas"
+       
+     <Button Text="Sobre"
+             Clicked="BotaoSobreClick"
+             FontFamily="GODOFWAR.TTF"
+             Margin="0,0,0,10"
+             BorderColor="White"
+             BorderWidth="1"
+             HeightRequest="50"
+             CornerRadius="25"
+             BackgroundColor="Transparent"
+             TextColor="White"
+             FontSize="16"/>
+
+   </VerticalStackLayout>
+
+<!--..............................................................................................
+   Sobre
+-->
+        
+         <Frame x:Name="frameSobre"
+                IsVisible="false"
+                Margin="10,20"
+                CornerRadius="20"
+                BackgroundColor="Grey"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill">
+
+  <Grid>
+         <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+         </Grid.RowDefinitions>
+
+     <Label Text="Sobre"
+            Margin="20"
+            FontSize="45"
+            FontFamily="GODOFWAR.TTF"
+            TextColor="White"
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Grid.Row="0"/>
+
+      <Label Text="Batata absbsbwhdbwhbdhbehdbebfhfbhrbrhbbghbgthgbthgtb"
+             TextColor="White"
+             FontSize="25"
+             HorizontalOptions="Center"
+             HorizontalTextAlignment="Center"
+             VerticalOptions="Center"
+             Grid.Row="1"/>
+
+      <Button Text="Voltar"
+              Clicked="BotaoSumir"
+              Margin="0,0,0,10"
               BorderColor="White"
               BorderWidth="1"
               HeightRequest="50"
               CornerRadius="25"
-              BackgroundColor="Transparent"
+              BackgroundColor="Red"
               TextColor="White"
-              FontSize="16"/>
+              FontSize="16"
+              Grid.Row="2"/>
 
-
-
-        
-</Grid>
-
-
-          
-        
-
+      </Grid>       
+    </Frame>
+  </Grid>
 </ContentPage>

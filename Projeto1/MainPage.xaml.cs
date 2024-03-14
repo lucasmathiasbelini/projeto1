@@ -2,17 +2,31 @@
 
 public partial class MainPage : ContentPage
 {
+
+//...............................................................
+
 	public MainPage()
 	{
 		InitializeComponent();
 	}
-void joia(object sender, EventArgs args)
+private void BotaoIniciarClick(object sender, EventArgs args)
 {
+   if (Application.Current != null)
 	Application.Current.MainPage = new GamePage();
 }
-void jonas(object sender, EventArgs args)
+
+//.............................................................................................
+private void BotaoSobreClick(object sender, EventArgs args)
 {
-	Application.Current.MainPage = new GamePage();
+	frameSobre.IsVisible = true;
 }
+
+//............................................................................................
+
+private void BotaoSumir(object sender, EventArgs args)
+{
+	frameSobre.IsVisible = false;
+}
+
 }
 

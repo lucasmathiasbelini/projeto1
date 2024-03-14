@@ -3,22 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Projeto1.GamePage"
              Shell.NavBarIsVisible="false"
-            BackgroundColor="Black"
-             Shell.NavBarIsVisible="false">
+             BackgroundColor="Black">
 
   <Grid>
     
 
 
 
-</Grind>
-
-
-
-
-
-
-
-
+</Grid>
 
 </ContentPage>

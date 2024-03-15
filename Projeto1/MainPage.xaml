@@ -55,29 +55,30 @@
                 IsVisible="false"
                 Margin="10,20"
                 CornerRadius="20"
-                BackgroundColor="Grey"
+                BackgroundColor="#4b4d6b"
                 HorizontalOptions="Fill"
                 VerticalOptions="Fill">
 
   <Grid>
          <Grid.RowDefinitions>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="90"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
          </Grid.RowDefinitions>
 
      <Label Text="Sobre"
             Margin="20"
-            FontSize="45"
+            FontSize="60"
             FontFamily="GODOFWAR.TTF"
             TextColor="White"
             HorizontalOptions="Center"
             HorizontalTextAlignment="Center"
             Grid.Row="0"/>
 
-      <Label Text="Batata absbsbwhdbwhbdhbehdbebfhfbhrbrhbbghbgthgbthgtb"
+      <Label Text="Esse jogo é um RPG textual para o trabalho de Desenvolvimento de Sistema da escola Sesi Apucarana, dirigido por: Lucas Mathias e João Guilherme"
              TextColor="White"
-             FontSize="25"
+             FontSize="20"
+             FontFamily="OpenSans-Semibold.ttf"
              HorizontalOptions="Center"
              HorizontalTextAlignment="Center"
              VerticalOptions="Center"
@@ -90,7 +91,7 @@
               BorderWidth="1"
               HeightRequest="50"
               CornerRadius="25"
-              BackgroundColor="Red"
+              BackgroundColor="#1b1c24"
               TextColor="White"
               FontSize="16"
               Grid.Row="2"/>

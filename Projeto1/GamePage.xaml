@@ -6,9 +6,83 @@
              BackgroundColor="Black">
 
   <Grid>
-    
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="65"/>
+        <RowDefinition Height="65"/>
+        <RowDefinition Height="65"/>
+        <RowDefinition Height="65"/>
+      </Grid.RowDefinitions>
+
+      <Frame BackgroundColor="#111f29"
+             Margin="5,10"
+             CornerRadius="25"
+             VerticalOptions="Fill"
+             Grid.Row="0">
+      <Label x:Name="LabelTexto"
+             TextColor="White"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             HorizontalTextAlignment="Center"
+             LineHeight="1.2"
+             FontSize="23"
+             FontFamily="OpenSans-Regular.ttf"/>
+      </Frame>
+
+      <Button x:Name=""
+              Clicked=""
+              Text="..."
+              BackgroundColor="#1b1c24"
+              CornerRadius="25"
+              BorderWidth="1"
+              BorderColor="White"
+              FontSize="20"
+              Margin="20,0"
+              HorizontalOptions="Center"
+              HeightRequest="50"
+              Grid.Row="1"/>
+
+      <Button x:Name=""
+              Clicked=""
+              Text="..."
+              BackgroundColor="Black"
+              CornerRadius="25"
+              BorderWidth="1"
+              BorderColor="White"
+              FontSize="20"
+              Margin="20,0"
+              HorizontalOptions="Center"
+              HeightRequest="50"
+              Grid.Row="2"/>
+
+      <Button x:Name=""
+              Clicked=""
+              Text="..."
+              BackgroundColor="Black"
+              CornerRadius="25"
+              BorderWidth="1"
+              BorderColor="White"
+              FontSize="20"
+              Margin="20,0"
+              HorizontalOptions="Center"
+              HeightRequest="50"
+              Grid.Row="3"/>
+
+      <Button x:Name=""
+              Clicked=""
+              Text="..."
+              BackgroundColor="Black"
+              CornerRadius="25"
+              BorderWidth="1"
+              BorderColor="White"
+              FontSize="20"
+              Margin="20,0"
+              HorizontalOptions="Center"
+              HeightRequest="50"
+              Grid.Row="4"/>
 
       
+
 
 
 </Grid>

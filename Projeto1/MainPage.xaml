@@ -4,16 +4,16 @@
              x:Class="Projeto1.MainPage"
              Shell.NavBarIsVisible="false">
    <Grid>
-      <Image Source="blz.jpg"
+      <Image Source="haha.jpg"
              Aspect="AspectFill"/>
 
         
-          <Label Text="HELL INVADER"
+          <Label Text="Aventureiro Rúnico"
                  FontFamily="GODOFWAR.TTF"
                  FontSize="45"
                  HorizontalTextAlignment="Center"
                  VerticalOptions="Center"
-                 TextColor="White"
+                 TextColor="Black"
                  Margin="0,0,0,350"/>
         
       <VerticalStackLayout

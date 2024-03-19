@@ -14,6 +14,7 @@
         <RowDefinition Height="65"/>
       </Grid.RowDefinitions>
 
+
       <Frame BackgroundColor="#111f29"
              Margin="5,10"
              CornerRadius="25"
@@ -29,8 +30,9 @@
              FontFamily="OpenSans-Regular.ttf"/>
       </Frame>
 
-      <Button x:Name=""
-              Clicked=""
+
+      <Button x:Name="BotaoContinuar"
+              Clicked="BotaoContinuarClick"
               Text="..."
               BackgroundColor="#1b1c24"
               CornerRadius="25"
@@ -40,10 +42,11 @@
               Margin="20,0"
               HorizontalOptions="Center"
               HeightRequest="50"
+              FontFamily="OpenSans-Semibold.ttf"
               Grid.Row="1"/>
 
-      <Button x:Name=""
-              Clicked=""
+      <Button x:Name="BotaoResposta1"
+              Clicked="Botao1Click"
               Text="..."
               BackgroundColor="Black"
               CornerRadius="25"
@@ -53,10 +56,11 @@
               Margin="20,0"
               HorizontalOptions="Center"
               HeightRequest="50"
+              FontFamily="OpenSans-Semibold.ttf"
               Grid.Row="2"/>
 
-      <Button x:Name=""
-              Clicked=""
+      <Button x:Name="BotaoResposta2"
+              Clicked="Botao2Click"
               Text="..."
               BackgroundColor="Black"
               CornerRadius="25"
@@ -66,10 +70,11 @@
               Margin="20,0"
               HorizontalOptions="Center"
               HeightRequest="50"
+              FontFamily="OpenSans-Semibold.ttf"
               Grid.Row="3"/>
 
-      <Button x:Name=""
-              Clicked=""
+      <Button x:Name="BotaoResposta3"
+              Clicked="Botao3Click"
               Text="..."
               BackgroundColor="Black"
               CornerRadius="25"
@@ -79,12 +84,38 @@
               Margin="20,0"
               HorizontalOptions="Center"
               HeightRequest="50"
-              Grid.Row="4"/>
-
-      
-
+              Grid.Row="4"
+              FontFamily="OpenSans-Semibold.ttf"/>
 
 
-</Grid>
+      <Frame x:Name="FrameGameOver"
+             IsVisible="false"
+             BackgroundColor="Black"
+             BorderColor="White"
+             Grid.Row="1"
+             Grid.RowSpan="4">
 
+        <VerticalStackLayout>
+           <Label Text="Morreu"
+                  TextColor="White"
+                  Margin="20"
+                  FontSize="45"
+                  FontFamily="GODOFWAR.TTF"
+                  HorizontalTextAlignment="Center"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+
+          <Button Text="Recomeçar"
+                  Clicked="BotaoGameOverClick"
+                  BackgroundColor="#1b1c24"
+                  TextColor="White"
+                  HeightRequest="50"
+                  CornerRadius="25"
+                  FontSize="16"
+                  FontFamily="OpenSans-Semibold.ttf"
+                  HorizontalOptions="Fill"/>
+
+        </VerticalStackLayout>
+      </Frame>
+    </Grid>
 </ContentPage>
